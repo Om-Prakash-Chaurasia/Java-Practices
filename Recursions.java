@@ -20,7 +20,7 @@
 
 // Qs. Print Numbers from 5 to 1. (Using recursion)
 
-// public class apnaCollege5 {
+// public class Recursions {
 // public static void printNumbers(int n) {
 // if (n == 0) {
 // return;
@@ -50,7 +50,7 @@
 
 // Qs. Print Numbers from 1 to 5. (Using recursion)
 
-// class Recursion1 {
+// class Recursions {
 // public static void printNumbers(int n) {
 // // Base condition.
 // if (n == 6) {
@@ -72,7 +72,7 @@
 
 // Qs. Print sum of first n natural numbers: (Using recursion)
 
-// class Recursion1 {
+// class Recursions {
 // public static void printSum(int i, int n, int sum) {
 // if (i == n) {
 // sum += i;
@@ -95,7 +95,7 @@
 
 // import java.util.*;
 
-// class Recursion1 {
+// class Recursions {
 // public static int printFact(int n) {
 // if (n == 1 || n == 0) {
 // return 1;
@@ -122,7 +122,7 @@
 
 // import java.util.*;
 
-// class Recursion1 {
+// class Recursions {
 // public static void printFabonacci(int a, int b, int n) {
 // if (n == 0) {
 // return;
@@ -153,7 +153,7 @@
 
 // import java.util.Scanner;
 
-// class Recursion1 {
+// class Recursions {
 // public static int calcPower(int x, int n) {
 // // Base case 1
 // if (n == 0) {
@@ -187,7 +187,7 @@
 
 // import java.util.Scanner;
 
-// class Recursion1 {
+// class Recursions {
 // public static int calcPower(int x, int n) {
 // // Base case 1
 // if (n == 0) {
@@ -226,7 +226,7 @@
 // Rules :- 1. Only one disk transfer in one step. 2. Smaller disks are always
 // kept on the top of the large disks.
 
-// class Recursion2 {
+// class Recursions {
 // public static void towerOfHanoi(int n, String source, String helper, String
 // destination) {
 // if (n == 1) {
@@ -250,7 +250,7 @@
 
 // Qs. Print a string in reverse: (Using recursion) TC = O(n)
 
-// class Recursion2 {
+// class Recursions {
 // public static void printReverse(String str, int idx) {
 // if (idx == 0) {
 // System.out.println(str.charAt(idx));
@@ -271,7 +271,7 @@
 // Qs. Find the 1st and last occurance of an element in a string: (Using
 // recursion) TC = O(n)
 
-// class Recursion2 {
+// class Recursions {
 // // Declaring two static variables i.e. these variables won't be created again
 // // and again in every recusrion steps.
 // public static int first = -1;
@@ -305,7 +305,7 @@
 // Qs. Check if an array is sorted (Strictly Increasing) : (Using recursion) TC
 // = O(n)
 
-// class Recursion2 {
+// class Recursions {
 // public static boolean isSorted(int arr[], int idx) {
 // if (idx == arr.length - 1) {
 // return true;
@@ -329,7 +329,7 @@
 // Qs. Move all 'x' to the end of the string: (Using recursion) TC = O(n +
 // count(n)) = O(2n) = O(n)
 
-// class Recursion2 {
+// class Recursions {
 // public static void moveAllX(String str, int idx, int count, String newString)
 // {
 // if (idx == str.length()) {
@@ -360,7 +360,7 @@
 
 // Qs. Remove duplicates in a string: (Using recursion) TC = O(n)
 
-// class Recursion2 {
+// class Recursions {
 // public static boolean[] map = new boolean[26];
 
 // public static void removeDuplicates(String str, int idx, String newString) {
@@ -388,7 +388,7 @@
 
 // VVI Qs. Print all the subsequences of a string: (Using recursion) TC = O(2^n)
 
-// class Recursion2 {
+// class Recursions {
 // public static void subsequences(String str, int idx, String newString) {
 // if (idx == str.length()) {
 // System.out.println(newString);
@@ -418,7 +418,7 @@
 
 // import java.util.HashSet;
 
-// class Recursion2 {
+// class Recursions {
 // public static void subsequences(String str, int idx, String newString,
 // HashSet<String> set) {
 // if (idx == str.length()) {
@@ -449,7 +449,7 @@
 // Qs. Print keypad combination: (Using recursion) TC = (4^n) as the max length
 // of a given string is 4
 
-// class Recursion2 {
+// class Recursions {
 // public static String[] keypad = { ".", "abc", "def", "ghi", "jkl", "nmo",
 // "pqrs", "tu", "vwx", "yz" };
 
@@ -480,7 +480,7 @@
 
 // Qs. Print all permutations of a string: (Using recursion) TC = O(n!)
 
-// class Recursion3 {
+// class Recursions {
 // public static void printPermutation(String str, String permutation) {
 // if (str.length() == 0) {
 // System.out.println(permutation);
@@ -512,7 +512,7 @@
 // solution is right then ok, or else we come back to a point and from that
 // point we start to explore a new way to reach up to the solution.
 
-// class Recursion3 {
+// class Recursions {
 // public static int countPaths(int i, int j, int n, int m) {
 // if (i == n || j == m) {
 // return 0;
@@ -542,7 +542,7 @@
 // this problem is also very high and can be reduced by using Dynamic
 // programming.
 
-// class Recursion3 {
+// class Recursions {
 // public static int placeTiles(int n, int m) {
 // if (n == m) {
 // return 2;
@@ -570,7 +570,7 @@
 // Qs. Find the number of ways in which you can invite n people to your party,
 // single or in pairs. (Using recursion)
 
-// class Recursion3 {
+// class Recursions {
 // public static int callGuests(int n) {
 // if (n <= 1) {
 // return 1;
@@ -597,7 +597,7 @@
 
 // import java.util.*;
 
-// class Recursion3 {
+// class Recursions {
 // public static void printSubset(ArrayList<Integer> subset) {
 // for (int i = -0; i < subset.size(); i++) {
 // System.out.print(subset.get(i) + " ");

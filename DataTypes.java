@@ -34,7 +34,7 @@
 
 // import java.util.*;
 
-// public class apnaCollege3 {
+// public class DataTypes {
 // public static void main(String[] args) {
 // int marks[] = new int[3];
 // marks[0] = 97; // phy
@@ -63,7 +63,7 @@
  * syntax:- type arrayName[] = {values of the array separated by comma ','};
  */
 // e.g.
-// public class apnaCollege3 {
+// public class DataTypes {
 // public static void main(String[] args) {
 // int marks[] = { 97, 98, 95 };
 
@@ -82,7 +82,7 @@
 
 // import java.util.*;
 
-// public class apnaCollege3 {
+// public class DataTypes {
 // public static void main(String[] args) {
 // Scanner sc = new Scanner(System.in);
 
@@ -110,7 +110,7 @@
 // Solution:
 // import java.util.*;
 
-// public class apnaCollege3 {
+// public class DataTypes {
 // public static void main(String[] args) {
 // Scanner sc = new Scanner(System.in);
 
@@ -146,7 +146,7 @@
 // Solution:
 // import java.util.*;
 
-// public class apnaCollege3 {
+// public class DataTypes {
 // public static void main(String[] args) {
 // Scanner sc = new Scanner(System.in);
 
@@ -172,7 +172,7 @@
 // Solution:
 // import java.util.*;
 
-// public class apnaCollege3 {
+// public class DataTypes {
 // public static void main(String[] args) {
 // Scanner sc = new Scanner(System.in);
 
@@ -209,7 +209,7 @@
 // Solution:
 // import java.util.*;
 
-// public class apnaCollege3 {
+// public class DataTypes {
 // public static void main(String[] args) {
 // Scanner sc = new Scanner(System.in);
 
@@ -252,7 +252,7 @@
 
 // import java.util.*;
 
-// public class apnaCollege3 {
+// public class DataTypes {
 // public static void main(String[] args) {
 // Scanner sc = new Scanner(System.in);
 
@@ -290,7 +290,7 @@
 // Solution:
 // import java.util.*;
 
-// public class apnaCollege3 {
+// public class DataTypes {
 // public static void main(String[] args) {
 // Scanner sc = new Scanner(System.in);
 
@@ -324,7 +324,7 @@
 // Solution:
 // import java.util.*;
 
-// public class apnaCollege3 {
+// public class DataTypes {
 // public static void main(String[] args) {
 // Scanner sc = new Scanner(System.in);
 
@@ -357,7 +357,7 @@
 // Solution:
 // import java.util.*;
 
-// public class apnaCollege3 {
+// public class DataTypes {
 // public static void main(String[] args) {
 // Scanner sc = new Scanner(System.in);
 
@@ -426,7 +426,7 @@
 // Solution:
 import java.util.*;
 
-public class apnaCollege3 {
+public class DataTypes {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
